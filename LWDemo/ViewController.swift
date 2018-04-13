@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var text_label: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -19,6 +20,8 @@ class ViewController: UIViewController {
         Car = "Audi"
         
         print(reverse(text: "stressed"))
+        
+        self.text_label.text = reverse(text: "stressed")
     }
     
     func reverse(text: String) -> String {
