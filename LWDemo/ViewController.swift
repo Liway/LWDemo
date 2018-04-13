@@ -17,7 +17,14 @@ class ViewController: UIViewController {
         print(Car)
         
         Car = "Audi"
+        
+        print(reverse(text: "stressed"))
     }
+    
+    func reverse(text: String) -> String {
+        return String(text.reversed())
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
