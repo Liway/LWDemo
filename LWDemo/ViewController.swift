@@ -13,9 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let Car: String = ""
+        var Car: String = ""
         print(Car)
         
+        Car = "Audi"
     }
 
     override func didReceiveMemoryWarning() {
